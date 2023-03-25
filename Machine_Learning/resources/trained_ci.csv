@@ -1,0 +1,16 @@
+CT,CT_Index,CT_Flag,Trained_CI,new_ci,new_ci_1,final_ci,ci_wrf
+ct,1,Cloud-free_land,0,0,0,0,0
+ct,2,Cloud-free_sea,0,0,0,0,0
+ct,3,Snow_over_land,0,0,0,0,0
+ct,4,Sea_ice,0,0,0,0,0
+ct,5,Very_low_clouds,0.6,0.4,0.4,0.4,0.5
+ct,6,Low_clouds,0.7,0.6,0.6,0.7,0.65
+ct,7,Mid-level_clouds,0.75,0.7,0.7,0.75,0.7
+ct,8,High_opaque_clouds,0.8,0.75,0.75,0.8,0.8
+ct,9,Very_high_opaque_clouds,0.85,0.89,0.8,0.9,0.95
+ct,10,Fractional_clouds,0.25,0.1,0.1,0.1,0.15
+ct,11,High_semitransparent_thin_clouds,0.2,0.2,0.2,0.2,0.25
+ct,12,High_semitransparent_moderately_thick_clouds,0.3,0.3,0.3,0.3,0.3
+ct,13,High_semitransparent_thick_clouds,0.6,0.6,0.6,0.8,0.6
+ct,14,High_semitransparent_above_low_or_medium_clouds,0.6,0.5,0.5,0.55,0.55
+ct,15,High_semitransparent_above_snow_ice,0,0,0,0,0

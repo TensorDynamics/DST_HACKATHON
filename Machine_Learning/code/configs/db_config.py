@@ -1,0 +1,27 @@
+"""
+database config
+"""
+dbname = 'postgres'
+host = 'tensordb1.cn6gzof6sqbw.us-east-2.rds.amazonaws.com'
+port = 5432
+user = 'admin123'
+password = 'tensor123'
+satellite_schema = 'td_satellite'
+configs_schema = 'configs'
+site_table = 'site_config'
+site_table_schema = 'configs'
+satellite_stg_table = 'nwc_satellite'
+satellite_ip_view = 'v_nwc_ct'
+satellite_op_training_table = 'nwc_ci_ct_trainings'
+site_actual_schema = 'site_actual'
+site_actual_table = 'site_actual'
+site_clearsky_table = 'clearsky_from_wrf'
+wrf_schema = 'td_wrf'
+wrf_view = 'v_wrf_data'
+week_ahead_view = 'v_ev_wrf_data'
+ct_ci_map_table = 'ct_ci_data'
+satellite_ct_exim_table = 'nwc_exim_ct'
+satellite_ct_exim_ip_view = 'v_nwc_exim_ct'
+forecast_table = 'intra_day_1'
+forecast_schema = 'forecast'
+api_table = 'nowcasting_api'
