@@ -1,11 +1,11 @@
 """
 database config
 """
-dbname = 'postgres'
-host = 'tensordb1.cn6gzof6sqbw.us-east-2.rds.amazonaws.com'
-port = 5432
-user = 'admin123'
-password = 'tensor123'
+dbname = ''
+host = ''
+port = 
+user = ''
+password = ''
 satellite_schema = 'td_satellite'
 configs_schema = 'configs'
 site_table = 'site_config'

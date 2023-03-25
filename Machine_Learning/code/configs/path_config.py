@@ -4,7 +4,7 @@ relating paths repo for the source code
 import os 
 
 #path config
-home = '/home/tensor/DST_HACKATHON/Machine_Learning'
+home = '/home/tensor/DST_HACKTHON/Machine_Learning'
 # home = 'D:\\Tensor Dynamics\\backup\\TD\\athena\\Solar_intra_day\\Solar_intra_day'
 resource_path = os.path.join(home,'resources')
 code_path = os.path.join(home,'code')
