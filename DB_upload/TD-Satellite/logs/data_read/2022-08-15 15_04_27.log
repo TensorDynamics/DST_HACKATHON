@@ -1,0 +1,12 @@
+2022-08-15 15:04:27.973 | INFO     | __main__:main:30 - Process started at : 2022-08-15 15:04:27.965450
+2022-08-15 15:04:27.974 | INFO     | __main__:main:31 - -------------------------------------------------------
+2022-08-15 15:04:27.974 | INFO     | __main__:main:33 - ============== SECTION - 1 : DB CONNECTION ==============
+2022-08-15 15:04:28.019 | INFO     | __main__:main:39 -  > DB Connection successful.
+2022-08-15 15:04:28.020 | INFO     | __main__:main:42 - ============== SECTION - 2 : GETTING SITE INFO ==============
+2022-08-15 15:04:32.628 | INFO     | __main__:main:47 - > Found 17 sites from database table td_cmip_projs.
+2022-08-15 15:04:32.629 | INFO     | __main__:main:48 - > Successfully extracted site info from database.
+2022-08-15 15:04:32.629 | INFO     | __main__:main:51 - ============== SECTION - 3 : LOCAL FILES IO ==============
+2022-08-15 15:04:32.636 | INFO     | __main__:main:55 - > Found 566 NETCDF files in the local directory /Users/vasu/Library/CloudStorage/OneDrive-DecisionTreeAnalyticsServices/TensorDynamics/Data/Satellite.
+2022-08-15 15:04:34.899 | INFO     | __main__:main:62 - > Found 11485 NETCDF files in the DB Table td_satellite.nwc_satellite.
+2022-08-15 15:04:35.920 | INFO     | __main__:main:72 - > Found 17 sites in the DB Table td_satellite.nwc_satellite.
+2022-08-15 15:04:36.164 | INFO     | __main__:main:84 - > Found 85 new NETCDF files to read and append

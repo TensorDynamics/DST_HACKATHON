@@ -1,0 +1,35 @@
+2022-09-09 20:44:16.409 | INFO     | __main__:main:31 - Process started at : 2022-09-09 20:44:16.402395
+2022-09-09 20:44:16.410 | INFO     | __main__:main:32 - -------------------------------------------------------
+2022-09-09 20:44:16.410 | INFO     | __main__:main:34 - ============== SECTION - 1 : DB CONNECTION ==============
+2022-09-09 20:44:16.450 | INFO     | __main__:main:40 -  > DB Connection successful.
+2022-09-09 20:44:16.450 | INFO     | __main__:main:43 - ============== SECTION - 2 : GETTING SITE INFO ==============
+2022-09-09 20:44:26.319 | INFO     | __main__:main:48 - > Found 23 sites from database table configs.
+2022-09-09 20:44:26.319 | INFO     | __main__:main:49 - > Successfully extracted site info from database.
+2022-09-09 20:44:26.319 | INFO     | __main__:main:52 - ============== SECTION - 3 : LOCAL FILES IO ==============
+2022-09-09 20:44:26.332 | INFO     | __main__:main:58 - > Found 566 NETCDF files in the local directory /Users/vasu/Library/CloudStorage/OneDrive-DecisionTreeAnalyticsServices/TensorDynamics/Data/Satellite.
+2022-09-09 20:46:10.211 | INFO     | __main__:main:81 - > Found 39595 NETCDF files in the DB Table td_satellite.nwc_satellite.
+2022-09-09 20:46:10.212 | INFO     | __main__:main:84 - > Found 24 sites [None, 'Siddipet', 'Rawra', 'Kamuthi', 'NJV_Delhi', 'Sadla', 'Parli', 'MSEDCL', 'Kavithal', 'Jhansi', 'Chhattisgarh', 'Kanasar', 'Lahori', 'Gunga', 'SITE3', 'SECI-1', 'Badnawar', 'Muktainagar', 'Ichhawar', 'SITE2', 'SITE1', 'Bitta', 'SITE4', 'Barod'] in the DB Table td_satellite.nwc_satellite.
+2022-09-09 20:46:10.212 | INFO     | __main__:main:88 - > Site - Badnawar total files in db table - 3458
+2022-09-09 20:46:10.212 | INFO     | __main__:main:88 - > Site - Barod total files in db table - 3458
+2022-09-09 20:46:10.212 | INFO     | __main__:main:88 - > Site - Bitta total files in db table - 27713
+2022-09-09 20:46:10.212 | INFO     | __main__:main:88 - > Site - Chhattisgarh total files in db table - 27710
+2022-09-09 20:46:10.213 | INFO     | __main__:main:88 - > Site - Gunga total files in db table - 3458
+2022-09-09 20:46:10.213 | INFO     | __main__:main:88 - > Site - Ichhawar total files in db table - 3458
+2022-09-09 20:46:10.213 | INFO     | __main__:main:88 - > Site - Jhansi total files in db table - 27713
+2022-09-09 20:46:10.213 | INFO     | __main__:main:88 - > Site - Kamuthi total files in db table - 27709
+2022-09-09 20:46:10.213 | INFO     | __main__:main:88 - > Site - Kanasar total files in db table - 27715
+2022-09-09 20:46:10.213 | INFO     | __main__:main:88 - > Site - Kavithal total files in db table - 3458
+2022-09-09 20:46:10.213 | INFO     | __main__:main:88 - > Site - Lahori total files in db table - 27720
+2022-09-09 20:46:10.213 | INFO     | __main__:main:88 - > Site - MSEDCL total files in db table - 27715
+2022-09-09 20:46:10.213 | INFO     | __main__:main:88 - > Site - Muktainagar total files in db table - 27710
+2022-09-09 20:46:10.214 | INFO     | __main__:main:88 - > Site - NJV_Delhi total files in db table - 27713
+2022-09-09 20:46:10.214 | INFO     | __main__:main:88 - > Site - Parli total files in db table - 27710
+2022-09-09 20:46:10.214 | INFO     | __main__:main:88 - > Site - Rawra total files in db table - 27710
+2022-09-09 20:46:10.214 | INFO     | __main__:main:88 - > Site - Sadla total files in db table - 27718
+2022-09-09 20:46:10.214 | INFO     | __main__:main:88 - > Site - SECI-1 total files in db table - 27712
+2022-09-09 20:46:10.214 | INFO     | __main__:main:88 - > Site - Siddipet total files in db table - 5030
+2022-09-09 20:46:10.214 | INFO     | __main__:main:88 - > Site - SITE1 total files in db table - 27712
+2022-09-09 20:46:10.214 | INFO     | __main__:main:88 - > Site - SITE2 total files in db table - 27712
+2022-09-09 20:46:10.214 | INFO     | __main__:main:88 - > Site - SITE3 total files in db table - 27711
+2022-09-09 20:46:10.215 | INFO     | __main__:main:88 - > Site - SITE4 total files in db table - 27710
+2022-09-09 20:46:10.215 | INFO     | __main__:main:88 - > Site - None total files in db table - 0

@@ -1,0 +1,38 @@
+2022-09-09 21:36:32.392 | INFO     | __main__:main:31 - Process started at : 2022-09-09 21:36:32.385601
+2022-09-09 21:36:32.393 | INFO     | __main__:main:32 - -------------------------------------------------------
+2022-09-09 21:36:32.393 | INFO     | __main__:main:35 - ============== SECTION - 1 : DB CONNECTION ==============
+2022-09-09 21:36:32.444 | INFO     | __main__:main:41 -  > DB Connection successful.
+2022-09-09 21:36:32.444 | INFO     | __main__:main:44 - ============== SECTION - 2 : GETTING SITE INFO ==============
+2022-09-09 21:36:41.841 | INFO     | __main__:main:49 - > Found 23 sites from database table configs.site_config
+2022-09-09 21:36:41.841 | INFO     | __main__:main:53 - ============== SECTION - 3 : LOCAL FILES IO ==============
+2022-09-09 21:36:41.851 | INFO     | __main__:main:59 - > Found 566 NETCDF files in the local directory /Users/vasu/Library/CloudStorage/OneDrive-DecisionTreeAnalyticsServices/TensorDynamics/Data/Satellite.
+2022-09-09 21:36:41.852 | INFO     | src.funcs.db_io:wrapper_get_files_to_read:340 - Inferring files to read per site - based on local system files and db files. This may take a while...
+2022-09-09 21:37:00.724 | INFO     | src.funcs.db_io:get_uq_vals_from_table:174 - Read 39595 unique values for column - id from td_satellite.nwc_satellite 
+2022-09-09 21:37:01.892 | INFO     | src.funcs.db_io:get_uq_vals_from_table:174 - Read 24 unique values for column - site_name from td_satellite.nwc_satellite 
+2022-09-09 21:38:35.049 | INFO     | src.funcs.db_io:get_site_files_map:311 - Extracted site-file map from td_satellite.nwc_satellite from columns site_name & id
+2022-09-09 21:38:35.050 | INFO     | src.funcs.db_io:wrapper_get_files_to_read:363 - > Found 39595 NETCDF files in the DB Table td_satellite.nwc_satellite.
+2022-09-09 21:38:35.050 | INFO     | src.funcs.db_io:wrapper_get_files_to_read:367 - > Site - Badnawar total files in db table - 3458
+2022-09-09 21:38:35.050 | INFO     | src.funcs.db_io:wrapper_get_files_to_read:367 - > Site - Barod total files in db table - 3458
+2022-09-09 21:38:35.050 | INFO     | src.funcs.db_io:wrapper_get_files_to_read:367 - > Site - Bitta total files in db table - 27713
+2022-09-09 21:38:35.050 | INFO     | src.funcs.db_io:wrapper_get_files_to_read:367 - > Site - Chhattisgarh total files in db table - 27710
+2022-09-09 21:38:35.051 | INFO     | src.funcs.db_io:wrapper_get_files_to_read:367 - > Site - Gunga total files in db table - 3458
+2022-09-09 21:38:35.051 | INFO     | src.funcs.db_io:wrapper_get_files_to_read:367 - > Site - Ichhawar total files in db table - 3458
+2022-09-09 21:38:35.051 | INFO     | src.funcs.db_io:wrapper_get_files_to_read:367 - > Site - Jhansi total files in db table - 27713
+2022-09-09 21:38:35.051 | INFO     | src.funcs.db_io:wrapper_get_files_to_read:367 - > Site - Kamuthi total files in db table - 27709
+2022-09-09 21:38:35.051 | INFO     | src.funcs.db_io:wrapper_get_files_to_read:367 - > Site - Kanasar total files in db table - 27715
+2022-09-09 21:38:35.051 | INFO     | src.funcs.db_io:wrapper_get_files_to_read:367 - > Site - Kavithal total files in db table - 3458
+2022-09-09 21:38:35.051 | INFO     | src.funcs.db_io:wrapper_get_files_to_read:367 - > Site - Lahori total files in db table - 27720
+2022-09-09 21:38:35.051 | INFO     | src.funcs.db_io:wrapper_get_files_to_read:367 - > Site - MSEDCL total files in db table - 27715
+2022-09-09 21:38:35.051 | INFO     | src.funcs.db_io:wrapper_get_files_to_read:367 - > Site - Muktainagar total files in db table - 27710
+2022-09-09 21:38:35.052 | INFO     | src.funcs.db_io:wrapper_get_files_to_read:367 - > Site - NJV_Delhi total files in db table - 27713
+2022-09-09 21:38:35.052 | INFO     | src.funcs.db_io:wrapper_get_files_to_read:367 - > Site - Parli total files in db table - 27710
+2022-09-09 21:38:35.052 | INFO     | src.funcs.db_io:wrapper_get_files_to_read:367 - > Site - Rawra total files in db table - 27710
+2022-09-09 21:38:35.052 | INFO     | src.funcs.db_io:wrapper_get_files_to_read:367 - > Site - Sadla total files in db table - 27718
+2022-09-09 21:38:35.052 | INFO     | src.funcs.db_io:wrapper_get_files_to_read:367 - > Site - SECI-1 total files in db table - 27712
+2022-09-09 21:38:35.052 | INFO     | src.funcs.db_io:wrapper_get_files_to_read:367 - > Site - Siddipet total files in db table - 5030
+2022-09-09 21:38:35.052 | INFO     | src.funcs.db_io:wrapper_get_files_to_read:367 - > Site - SITE1 total files in db table - 27712
+2022-09-09 21:38:35.052 | INFO     | src.funcs.db_io:wrapper_get_files_to_read:367 - > Site - SITE2 total files in db table - 27712
+2022-09-09 21:38:35.052 | INFO     | src.funcs.db_io:wrapper_get_files_to_read:367 - > Site - SITE3 total files in db table - 27711
+2022-09-09 21:38:35.053 | INFO     | src.funcs.db_io:wrapper_get_files_to_read:367 - > Site - SITE4 total files in db table - 27710
+2022-09-09 21:38:35.053 | INFO     | src.funcs.db_io:wrapper_get_files_to_read:367 - > Site - None total files in db table - 0
+2022-09-09 21:38:35.341 | INFO     | __main__:main:73 - > Inferred 566 NETCDF files to read and upsert.

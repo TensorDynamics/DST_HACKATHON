@@ -1,0 +1,11 @@
+2022-08-29 15:02:07.772 | INFO     | __main__:main:30 - Process started at : 2022-08-29 15:02:07.767243
+2022-08-29 15:02:07.773 | INFO     | __main__:main:31 - -------------------------------------------------------
+2022-08-29 15:02:07.773 | INFO     | __main__:main:33 - ============== SECTION - 1 : DB CONNECTION ==============
+2022-08-29 15:02:07.797 | INFO     | __main__:main:39 -  > DB Connection successful.
+2022-08-29 15:02:07.797 | INFO     | __main__:main:42 - ============== SECTION - 2 : GETTING SITE INFO ==============
+2022-08-29 15:02:12.273 | INFO     | __main__:main:47 - > Found 18 sites from database table td_cmip_projs.
+2022-08-29 15:02:12.273 | INFO     | __main__:main:48 - > Successfully extracted site info from database.
+2022-08-29 15:02:12.273 | INFO     | __main__:main:51 - ============== SECTION - 3 : LOCAL FILES IO ==============
+2022-08-29 15:02:12.274 | INFO     | __main__:main:55 - > Found 24 EXIM NETCDF files in the local directory /Users/vasu/Library/CloudStorage/OneDrive-DecisionTreeAnalyticsServices/TensorDynamics/Data/Satellite.
+2022-08-29 15:02:13.205 | INFO     | __main__:main:61 - > Found 1 EXIM NETCDF files in the DB Table td_satellite.nwc_exim_ct.
+2022-08-29 15:02:13.205 | INFO     | __main__:main:64 - > Found 23 new EXIM NETCDF files to read and append

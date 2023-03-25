@@ -1,0 +1,9 @@
+2022-10-03 13:27:10.554 | INFO     | __main__:main:35 - Process started at : 2022-10-03 13:27:10.551213
+2022-10-03 13:27:10.554 | INFO     | __main__:main:36 - -------------------------------------------------------
+2022-10-03 13:27:10.555 | INFO     | __main__:main:39 - ============== SECTION - 1 : DB CONNECTION ==============
+2022-10-03 13:27:10.813 | INFO     | __main__:main:45 - > DB connection successful.
+2022-10-03 13:27:10.814 | INFO     | __main__:main:48 - ============== SECTION - 2 : GETTING SITE INFO ==============
+2022-10-03 13:27:18.281 | INFO     | __main__:main:58 - ----------------------------------------
+2022-10-03 13:27:18.281 | INFO     | __main__:main:59 - Active Wind Sites 3: [['Gunga', 'Badnawar', 'Kavithal']]
+2022-10-03 13:27:18.281 | INFO     | __main__:main:60 - ----------------------------------------
+2022-10-03 13:27:18.281 | INFO     | __main__:main:63 - ============== SECTION - 3 : CALCULATE FORECAST AND APPEND ==============

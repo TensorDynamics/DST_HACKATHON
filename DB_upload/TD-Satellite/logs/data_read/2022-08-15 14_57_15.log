@@ -1,0 +1,12 @@
+2022-08-15 14:57:15.750 | INFO     | __main__:main:30 - Process started at : 2022-08-15 14:57:15.743072
+2022-08-15 14:57:15.750 | INFO     | __main__:main:31 - -------------------------------------------------------
+2022-08-15 14:57:15.750 | INFO     | __main__:main:33 - ============== SECTION - 1 : DB CONNECTION ==============
+2022-08-15 14:57:15.795 | INFO     | __main__:main:39 -  > DB Connection successful.
+2022-08-15 14:57:15.795 | INFO     | __main__:main:42 - ============== SECTION - 2 : GETTING SITE INFO ==============
+2022-08-15 14:57:20.846 | INFO     | __main__:main:47 - > Found 17 sites from database table td_cmip_projs.
+2022-08-15 14:57:20.847 | INFO     | __main__:main:48 - > Successfully extracted site info from database.
+2022-08-15 14:57:20.847 | INFO     | __main__:main:51 - ============== SECTION - 3 : LOCAL FILES IO ==============
+2022-08-15 14:57:20.867 | INFO     | __main__:main:55 - > Found 0 NETCDF files in the local directory /home/ubuntu/SAFNWC/SAFNWC_Export.
+2022-08-15 14:57:24.600 | INFO     | __main__:main:62 - > Found 11467 NETCDF files in the DB Table td_satellite.nwc_satellite.
+2022-08-15 14:57:25.755 | INFO     | __main__:main:72 - > Found 17 sites in the DB Table td_satellite.nwc_satellite.
+2022-08-15 14:57:25.755 | INFO     | __main__:main:84 - > Found 0 new NETCDF files to read and append

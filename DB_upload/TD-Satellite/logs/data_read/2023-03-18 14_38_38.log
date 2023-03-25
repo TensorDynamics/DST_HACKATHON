@@ -1,0 +1,53 @@
+2023-03-18 14:38:38.424 | INFO     | __main__:main:30 - Process started at : 2023-03-18 14:38:38.416565
+2023-03-18 14:38:38.424 | INFO     | __main__:main:31 - -------------------------------------------------------
+2023-03-18 14:38:38.424 | INFO     | __main__:main:34 - ============== SECTION - 1 : DB CONNECTION ==============
+2023-03-18 14:38:38.454 | INFO     | __main__:main:40 -  > DB Connection successful.
+2023-03-18 14:38:38.454 | INFO     | __main__:main:43 - ============== SECTION - 2 : GETTING SITE CONFIG INFO ==============
+2023-03-18 14:38:42.557 | INFO     | __main__:main:48 - > Found 37 sites from database table configs.site_config
+2023-03-18 14:38:42.557 | INFO     | __main__:main:52 - ============== SECTION - 3 : FILES IO ==============
+2023-03-18 14:38:42.558 | INFO     | __main__:main:58 - > Found 4 NETCDF files in the local directory /home/tensor/DST_HACKATHON/OUTPUT/Nowcast.
+2023-03-18 14:38:42.558 | INFO     | src.funcs.db_io:wrapper_get_files_to_read:339 - Inferring files to read per site - based on local system files and db files. This may take a while...
+2023-03-18 14:38:50.054 | INFO     | src.funcs.db_io:get_uq_vals_from_table:173 - Read 89700 unique values for column - id from td_satellite.nwc_satellite 
+2023-03-18 14:38:51.913 | INFO     | src.funcs.db_io:get_uq_vals_from_table:173 - Read 39 unique values for column - site_name from td_satellite.nwc_satellite 
+2023-03-18 14:39:28.742 | INFO     | src.funcs.db_io:get_site_files_map:310 - Extracted site-file map from td_satellite.nwc_satellite from columns site_name & id
+2023-03-18 14:39:28.743 | INFO     | src.funcs.db_io:wrapper_get_files_to_read:362 - > Found 89700 NETCDF files in the DB Table td_satellite.nwc_satellite.
+2023-03-18 14:39:28.743 | INFO     | src.funcs.db_io:wrapper_get_files_to_read:366 - > Site - Aurad total files in db table - 55900
+2023-03-18 14:39:28.744 | INFO     | src.funcs.db_io:wrapper_get_files_to_read:366 - > Site - Badnawar total files in db table - 73617
+2023-03-18 14:39:28.744 | INFO     | src.funcs.db_io:wrapper_get_files_to_read:366 - > Site - Barod total files in db table - 73617
+2023-03-18 14:39:28.744 | INFO     | src.funcs.db_io:wrapper_get_files_to_read:366 - > Site - Bitta total files in db table - 73617
+2023-03-18 14:39:28.744 | INFO     | src.funcs.db_io:wrapper_get_files_to_read:366 - > Site - Chhattisgarh total files in db table - 73617
+2023-03-18 14:39:28.744 | INFO     | src.funcs.db_io:wrapper_get_files_to_read:366 - > Site - Gunga total files in db table - 73617
+2023-03-18 14:39:28.744 | INFO     | src.funcs.db_io:wrapper_get_files_to_read:366 - > Site - Hero Power total files in db table - 15567
+2023-03-18 14:39:28.745 | INFO     | src.funcs.db_io:wrapper_get_files_to_read:366 - > Site - Hisar total files in db table - 42419
+2023-03-18 14:39:28.745 | INFO     | src.funcs.db_io:wrapper_get_files_to_read:366 - > Site - Ichhawar total files in db table - 73617
+2023-03-18 14:39:28.745 | INFO     | src.funcs.db_io:wrapper_get_files_to_read:366 - > Site - Jhansi total files in db table - 73617
+2023-03-18 14:39:28.745 | INFO     | src.funcs.db_io:wrapper_get_files_to_read:366 - > Site - Kamuthi total files in db table - 73617
+2023-03-18 14:39:28.745 | INFO     | src.funcs.db_io:wrapper_get_files_to_read:366 - > Site - Kanasar total files in db table - 73617
+2023-03-18 14:39:28.746 | INFO     | src.funcs.db_io:wrapper_get_files_to_read:366 - > Site - Kavithal total files in db table - 73617
+2023-03-18 14:39:28.746 | INFO     | src.funcs.db_io:wrapper_get_files_to_read:366 - > Site - Lahori total files in db table - 73617
+2023-03-18 14:39:28.746 | INFO     | src.funcs.db_io:wrapper_get_files_to_read:366 - > Site - Loc_2710 total files in db table - 42333
+2023-03-18 14:39:28.746 | INFO     | src.funcs.db_io:wrapper_get_files_to_read:366 - > Site - Loc_2715 total files in db table - 42333
+2023-03-18 14:39:28.746 | INFO     | src.funcs.db_io:wrapper_get_files_to_read:366 - > Site - Loc_2718 total files in db table - 42333
+2023-03-18 14:39:28.746 | INFO     | src.funcs.db_io:wrapper_get_files_to_read:366 - > Site - MSEDCL total files in db table - 73617
+2023-03-18 14:39:28.747 | INFO     | src.funcs.db_io:wrapper_get_files_to_read:366 - > Site - Muktainagar total files in db table - 73617
+2023-03-18 14:39:28.747 | INFO     | src.funcs.db_io:wrapper_get_files_to_read:366 - > Site - Nagpur total files in db table - 23482
+2023-03-18 14:39:28.747 | INFO     | src.funcs.db_io:wrapper_get_files_to_read:366 - > Site - New_Delhi total files in db table - 23482
+2023-03-18 14:39:28.747 | INFO     | src.funcs.db_io:wrapper_get_files_to_read:366 - > Site - NJV_Delhi total files in db table - 73617
+2023-03-18 14:39:28.747 | INFO     | src.funcs.db_io:wrapper_get_files_to_read:366 - > Site - Parli total files in db table - 73617
+2023-03-18 14:39:28.748 | INFO     | src.funcs.db_io:wrapper_get_files_to_read:366 - > Site - Rawra total files in db table - 73617
+2023-03-18 14:39:28.748 | INFO     | src.funcs.db_io:wrapper_get_files_to_read:366 - > Site - Rewa total files in db table - 42419
+2023-03-18 14:39:28.748 | INFO     | src.funcs.db_io:wrapper_get_files_to_read:366 - > Site - Sadla total files in db table - 73617
+2023-03-18 14:39:28.748 | INFO     | src.funcs.db_io:wrapper_get_files_to_read:366 - > Site - Samastipur total files in db table - 23482
+2023-03-18 14:39:28.748 | INFO     | src.funcs.db_io:wrapper_get_files_to_read:366 - > Site - SECI-1 total files in db table - 73617
+2023-03-18 14:39:28.748 | INFO     | src.funcs.db_io:wrapper_get_files_to_read:366 - > Site - Siddipet total files in db table - 73617
+2023-03-18 14:39:28.748 | INFO     | src.funcs.db_io:wrapper_get_files_to_read:366 - > Site - SITE1 total files in db table - 73617
+2023-03-18 14:39:28.749 | INFO     | src.funcs.db_io:wrapper_get_files_to_read:366 - > Site - SITE2 total files in db table - 73617
+2023-03-18 14:39:28.749 | INFO     | src.funcs.db_io:wrapper_get_files_to_read:366 - > Site - SITE3 total files in db table - 73617
+2023-03-18 14:39:28.749 | INFO     | src.funcs.db_io:wrapper_get_files_to_read:366 - > Site - SITE4 total files in db table - 73617
+2023-03-18 14:39:28.749 | INFO     | src.funcs.db_io:wrapper_get_files_to_read:366 - > Site - SPP1 total files in db table - 23117
+2023-03-18 14:39:28.749 | INFO     | src.funcs.db_io:wrapper_get_files_to_read:366 - > Site - SPP2 total files in db table - 23117
+2023-03-18 14:39:28.749 | INFO     | src.funcs.db_io:wrapper_get_files_to_read:366 - > Site - SPP3 total files in db table - 23117
+2023-03-18 14:39:28.749 | INFO     | src.funcs.db_io:wrapper_get_files_to_read:366 - > Site - SPP4 total files in db table - 23117
+2023-03-18 14:39:28.750 | INFO     | src.funcs.db_io:wrapper_get_files_to_read:366 - > Site - SPP5 total files in db table - 23117
+2023-03-18 14:39:28.750 | INFO     | src.funcs.db_io:wrapper_get_files_to_read:366 - > Site - None total files in db table - 0
+2023-03-18 14:39:29.069 | INFO     | __main__:main:71 - > Inferred 4 / 4 NETCDF files to read and upsert.

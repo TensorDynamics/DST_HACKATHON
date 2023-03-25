@@ -1,0 +1,9 @@
+2022-09-09 21:13:07.530 | INFO     | __main__:main:31 - Process started at : 2022-09-09 21:13:07.522828
+2022-09-09 21:13:07.530 | INFO     | __main__:main:32 - -------------------------------------------------------
+2022-09-09 21:13:07.530 | INFO     | __main__:main:35 - ============== SECTION - 1 : DB CONNECTION ==============
+2022-09-09 21:13:07.586 | INFO     | __main__:main:41 -  > DB Connection successful.
+2022-09-09 21:13:07.587 | INFO     | __main__:main:44 - ============== SECTION - 2 : GETTING SITE INFO ==============
+2022-09-09 21:13:12.774 | INFO     | __main__:main:49 - > Found 23 sites from database table configs.
+2022-09-09 21:13:12.774 | INFO     | __main__:main:50 - > Successfully extracted site info from database.
+2022-09-09 21:13:12.775 | INFO     | __main__:main:53 - ============== SECTION - 3 : LOCAL FILES IO ==============
+2022-09-09 21:13:12.785 | INFO     | __main__:main:59 - > Found 566 NETCDF files in the local directory /Users/vasu/Library/CloudStorage/OneDrive-DecisionTreeAnalyticsServices/TensorDynamics/Data/Satellite.

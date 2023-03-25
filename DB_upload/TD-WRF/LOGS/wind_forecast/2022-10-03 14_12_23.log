@@ -1,0 +1,12 @@
+2022-10-03 14:12:23.964 | INFO     | __main__:main:37 - Process started at : 2022-10-03 14:12:23.961141 | run_id: 7581d065-8199-4601-a621-58f9afaf1faa
+2022-10-03 14:12:23.964 | INFO     | __main__:main:38 - -------------------------------------------------------
+2022-10-03 14:12:23.964 | INFO     | __main__:main:41 - ============== SECTION - 1 : DB CONNECTION ==============
+2022-10-03 14:12:23.989 | INFO     | __main__:main:47 - > DB connection successful.
+2022-10-03 14:12:23.989 | INFO     | __main__:main:50 - ============== SECTION - 2 : GETTING SITE INFO ==============
+2022-10-03 14:12:31.384 | INFO     | __main__:main:60 - ----------------------------------------
+2022-10-03 14:12:31.384 | INFO     | __main__:main:61 - Active Wind Sites 3: ['Gunga', 'Badnawar', 'Kavithal']
+2022-10-03 14:12:31.385 | INFO     | __main__:main:62 - ----------------------------------------
+2022-10-03 14:12:33.038 | INFO     | __main__:main:78 - ============== SECTION - 3 : CALCULATE FORECAST AND APPEND ==============
+2022-10-03 14:13:22.286 | INFO     | __main__:main:127 - Successfully appended data (575 rows)  ->  DB table -> td_wrf.wrf_wind_forecast_da
+2022-10-03 14:14:19.963 | INFO     | __main__:main:127 - Successfully appended data (575 rows)  ->  DB table -> td_wrf.wrf_wind_forecast_da
+2022-10-03 14:14:40.468 | INFO     | __main__:main:127 - Successfully appended data (575 rows)  ->  DB table -> td_wrf.wrf_wind_forecast_da

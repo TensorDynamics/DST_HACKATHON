@@ -1,0 +1,11 @@
+2023-03-18 14:43:32.630 | INFO     | __main__:main:30 - Process started at : 2023-03-18 14:43:32.622341
+2023-03-18 14:43:32.630 | INFO     | __main__:main:31 - -------------------------------------------------------
+2023-03-18 14:43:32.630 | INFO     | __main__:main:33 - ============== SECTION - 1 : DB CONNECTION ==============
+2023-03-18 14:43:32.661 | INFO     | __main__:main:39 -  > DB Connection successful.
+2023-03-18 14:43:32.661 | INFO     | __main__:main:42 - ============== SECTION - 2 : GETTING SITE INFO ==============
+2023-03-18 14:43:36.710 | INFO     | __main__:main:47 - > Found 37 sites from database table configs.
+2023-03-18 14:43:36.710 | INFO     | __main__:main:48 - > Successfully extracted site info from database.
+2023-03-18 14:43:36.710 | INFO     | __main__:main:51 - ============== SECTION - 3 : LOCAL FILES IO ==============
+2023-03-18 14:43:36.711 | INFO     | __main__:main:55 - > Found 16 EXIM NETCDF files in the local directory /home/tensor/DST_HACKATHON/OUTPUT/Nowcast.
+2023-03-18 14:43:47.267 | INFO     | __main__:main:61 - > Found 218686 EXIM NETCDF files in the DB Table td_satellite.nwc_exim_ct.
+2023-03-18 14:43:47.292 | INFO     | __main__:main:64 - > Found 0 new EXIM NETCDF files to read and append

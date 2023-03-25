@@ -1,0 +1,3 @@
+2022-08-15 12:34:53.458 | INFO     | __main__:main:31 - Process started at : 2022-08-15 12:34:53.450779
+2022-08-15 12:34:53.458 | INFO     | __main__:main:32 - -------------------------------------------------------
+2022-08-15 12:38:01.593 | INFO     | src.funcs.db_io:append_data_to_table:140 - Successfully appended data (33 rows)  ->  DB table -> td_satellite.ct_ci_data

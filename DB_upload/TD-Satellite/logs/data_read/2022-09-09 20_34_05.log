@@ -1,0 +1,11 @@
+2022-09-09 20:34:05.287 | INFO     | __main__:main:31 - Process started at : 2022-09-09 20:34:05.279673
+2022-09-09 20:34:05.287 | INFO     | __main__:main:32 - -------------------------------------------------------
+2022-09-09 20:34:05.288 | INFO     | __main__:main:34 - ============== SECTION - 1 : DB CONNECTION ==============
+2022-09-09 20:34:05.381 | INFO     | __main__:main:40 -  > DB Connection successful.
+2022-09-09 20:34:05.381 | INFO     | __main__:main:43 - ============== SECTION - 2 : GETTING SITE INFO ==============
+2022-09-09 20:34:12.139 | INFO     | __main__:main:48 - > Found 23 sites from database table configs.
+2022-09-09 20:34:12.140 | INFO     | __main__:main:49 - > Successfully extracted site info from database.
+2022-09-09 20:34:12.140 | INFO     | __main__:main:52 - ============== SECTION - 3 : LOCAL FILES IO ==============
+2022-09-09 20:34:13.166 | INFO     | __main__:main:58 - > Found 566 NETCDF files in the local directory /Users/vasu/Library/CloudStorage/OneDrive-DecisionTreeAnalyticsServices/TensorDynamics/Data/Satellite.
+2022-09-09 20:35:21.791 | INFO     | __main__:main:81 - > Found 39595 NETCDF files in the DB Table td_satellite.nwc_satellite.
+2022-09-09 20:35:21.793 | INFO     | __main__:main:84 - > Found 25 sites ['Barod', None, 'Siddipet', 'Rawra', 'Kamuthi', 'NJV_Delhi', 'Sadla', 'Parli', 'MSEDCL', 'Kavithal', 'Hero Power', 'Jhansi', 'Chhattisgarh', 'Kanasar', 'Lahori', 'Gunga', 'SITE3', 'SECI-1', 'Badnawar', 'Muktainagar', 'Ichhawar', 'SITE2', 'SITE1', 'Bitta', 'SITE4'] in the DB Table td_satellite.nwc_satellite.
