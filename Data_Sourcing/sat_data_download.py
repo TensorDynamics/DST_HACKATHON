@@ -15,8 +15,8 @@ import glob
 #EUMATSAT ID-------------skycaster------------------------------------------
 
 def hrit_latest():
-    consumer_key = '5mFadC9Mf38j3cCu_jPtOuWq1DAa'
-    consumer_secret = 'L04RfORUJqfKxn7oKmT6uqopr5Ua'
+    consumer_key = ''
+    consumer_secret = ''
     credentials = (consumer_key, consumer_secret)
     token = eumdac.AccessToken(credentials)
     datastore = eumdac.DataStore(token)

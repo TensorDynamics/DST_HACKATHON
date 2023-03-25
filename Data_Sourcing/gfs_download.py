@@ -12,7 +12,7 @@
 # Contact rpconroy@ucar.edu (Riley Conroy) for further assistance.
 #################################################################
 
-pswd = 'ujg5fGrd'
+pswd = ''
 import sys, os
 import requests
 
@@ -45,7 +45,7 @@ def check_file_status(filepath, filesize):
 #        pswd = os.environ['RDAPSWD']
 
 url = 'https://rda.ucar.edu/cgi-bin/login'
-values = {'email' : 'khan.faizan.3792@gmail.com', 'passwd' : pswd, 'action' : 'login'}
+values = {'email' : '', 'passwd' : pswd, 'action' : 'login'}
 # Authenticate
 ret = requests.post(url,data=values)
 if ret.status_code != 200:

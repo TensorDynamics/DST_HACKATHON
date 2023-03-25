@@ -3,11 +3,11 @@
 import os
 import os.path
 
-#Data_Path = '/home/tensor/DST_HACKATHON/Data_Sourcing/Input_Data/'
-home = '/home/tensor/DST_HACKATHON/Data_Sourcing/'
+#Data_Path = '/home/tensor/DST_HACKTHON/Data_Sourcing/Input_Data/'
+home = '/home/tensor/DST_HACKTHON/Data_Sourcing/'
 gfs_path = os.path.join(home,'Input_Data/GFS_DATA/')
 hrit_path =os.path.join(home,'Input_Data/SAT_DATA/')
-external_folder_path = '/home/tensor/DST_HACKATHON/OUTPUT/Nowcast/'
+external_folder_path = '/home/tensor/DST_HACKTHON/OUTPUT/Nowcast/'
 #code_path = os.path.join(home,'code/')
 code_path=home
 os.makedirs(gfs_path,exist_ok=True)
