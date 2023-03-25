@@ -6,14 +6,14 @@ echo " 1. Defining Directories"
 WPS=/home/tensor/WRF_BUILD/WPS
 WA_HOME=/home/tensor/WRF_BUILD
 WA=/home/tensor/WRF_BUILD/WRF/run
-GFS=/home/tensor/DST_HACKATHON/Data_Sourcing/Input_Data/GFS_DATA
-WA_OUT=/home/tensor/DST_HACKATHON/OUTPUT/Week_ahead
+GFS=/home/tensor/DST_HACKTHON/Data_Sourcing/Input_Data/GFS_DATA
+WA_OUT=/home/tensor/DST_HACKTHON/OUTPUT/Week_ahead
 CDO=/usr/bin/cdo
 MPI=/home/tensor/WRF_BUILD/LIBRARIES/mpich/bin/mpirun
 PYTHON=/home/tensor/miniconda3/bin/python
-WA_CODE=/home/tensor/DST_HACKATHON/Data_Sourcing
-CODEBASE=/home/tensor/DST_HACKATHON/DB_upload/TD-WRF
-CLEARSKY=/home/tensor/DST_HACKATHON/DB_upload/TD_CS
+WA_CODE=/home/tensor/DST_HACKTHON/Data_Sourcing
+CODEBASE=/home/tensor/DST_HACKTHON/DB_upload/TD-WRF
+CLEARSKY=/home/tensor/DST_HACKTHON/DB_upload/TD_CS
 
 sleep 1s
 

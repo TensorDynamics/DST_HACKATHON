@@ -1,7 +1,7 @@
 #!/bin/sh -f
 
 PYTHON=/home/tensor/miniconda3/bin/python
-NWP=/home/tensor/DST_HACKATHON/NWP
+NWP=/home/tensor/DST_HACKTHON/NWP
 
 
 cd $NWP
