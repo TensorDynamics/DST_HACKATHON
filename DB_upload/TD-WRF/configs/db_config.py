@@ -1,11 +1,11 @@
 """
 database config
 """
-dbname = 'postgres'
-host = 'tensordb1.cn6gzof6sqbw.us-east-2.rds.amazonaws.com'
-port = 5432
-user = 'admin123'
-password = 'tensor123'
+dbname = ''
+host = ''
+port = 
+user = ''
+password = ''
 wrf_schema = 'td_wrf'
 wrf_stg_table = 'td_wrf_stg'
 wrf_view = 'v_wrf_data'

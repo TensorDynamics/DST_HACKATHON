@@ -5,7 +5,7 @@ import os
 from funcs.helpers import parse_args_shell
 
 # DEFAULT OPTIONS
-data_path = "/home/tensor/DST_HACKATHON/OUTPUT/Week_ahead"
+data_path = "/home/tensor/DST_HACKTHON/OUTPUT/Week_ahead"
 # data_path = "/Users/vasu/TensorDynamics/Data/WRF"
 src_path = os.getcwd()
 resources_path = os.path.join(src_path, 'resources')
